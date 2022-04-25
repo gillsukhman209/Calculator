@@ -1,0 +1,16 @@
+.btn-grid {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 450px;
+}
+
+.row .btn {
+    background: rgb(42, 41, 41);
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 24px;
+    flex: 1;
+}
