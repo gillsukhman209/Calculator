@@ -15,6 +15,11 @@ btns.forEach((btn) => {
         }
 
         switch (e.target.textContent) {
+            case "Clear":
+                operation = 0;
+                previousNumber = "";
+                currentNumber = "";
+                updateDisplay("")
             case "+":
                 operation = 1;
 
